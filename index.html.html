@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>My First Web Page</title>
+      <link rel="stylesheet" href="style.css">
+      </link>  
+    </head>
+    <body>
+        <!-- CSS Styling by element -->
+        <div>
+        <h1 style="color:whitesmoke; background-color: blue; margin: 0%; text-align: center; text: shadow 2px; white;">Fill in your Biodata</h1>   
+        </div>
+        <form method="*" style="padding: 16px; font-family: Georgia, 'Times New Roman', Times, serif; margin: 16px; padding: 16px;" >
+            <fieldset>
+                <legend style="text-align: center; font-size: larger;background-color: blue;">Biodata</legend>
+                <label for="firstname">Firstname</label>
+                <input style="margin: 10px;" type="text" name="firstname" id="firstname"><br/>
+
+                <label for="lastname">Lastname</label>
+                <input style="margin: 10px;" type="text" name="lastname" id="lastname"><br/> 
+
+                <form action="/action_page.php">
+                <label for="email">Email</label>
+                <input style="margin: 10px;" type="email" name="email" id="email">
+                </form><br/>
+
+                <label for="Phone">Phone number</label>
+                <input style="margin: 10px;" type="tel" name="Phone" id="Phone"><br/>
+
+                <label for="dob">Date of Birth</label>
+                <input style="margin: 10px;" type="date" name="dob" id="dob"><br/>
+
+                <label for="Male">Male</label>
+                <input type="radio" name="sex" id="male" value="male"><br/>
+
+                <label for="female">Female</label>
+                <input type="radio" name="sex" id="female" value="female"><br/>
+
+                <input style="background-color: blue; margin: 08px;" type="button" value="submit"><br/>
+            </fieldset>
+        </form>
+        <script src="index.js"></script>
+    </body>
+</html>
